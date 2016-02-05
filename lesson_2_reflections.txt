@@ -1,0 +1,22 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	You  initialie a repository to  create the hidden .git directory.
+	Then you can track any files you want that are in the  repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	The staging area is the intermediate stage for passing files from the  working
+	directory to the repository. It allows you to select which files you add to each commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can add only the files you want to the staging area and also you can use diff to see the changes 
+	you are about to commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	Use branches to try out tentative changes to code without interfering with the working master branch. You 
+	can later merge into master.
+
+How  do the diagrams help you visualize the branch structure?
